@@ -98,5 +98,17 @@ git remote add origin ssh://<user>@<server>.timeweb.ru/home/<u>/<user>/git/my-si
 git pull origin master
 ```
 
+<i>Примечание:<br>
+в случае работы с IDE JetBrains PhpStorm/WebStorm достаточно:<br>
+а) в стартовом окне выбрать Checkout from Version Control -> Git
+<br>
+б) в произвольном открытом проекте в верхнем меню выбрать VCS -> Checkout from Version Control -> Git
+<br>
+и в поле Git Repository URL ввести:<br></i>
+```
+ssh://<user>@<server>.timeweb.ru/home/<u>/<user>/git/my-site.git
+```
+<i>После запуска проекта пулить сразу уже не требуется.</i><br><br>
+
 Работаем как и с обычным репозиторием. Конец, успех.
 
