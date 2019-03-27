@@ -92,7 +92,7 @@ cd ~/my-site
 git push --set-upstream shared master
 ```
 
-12) Локально добавлеям удаленный репозиторий и обновляемся:
+12) Локально добавляем удаленный репозиторий и обновляемся:
 ```
 git remote add origin ssh://<user>@<server>.timeweb.ru/home/<u>/<user>/git/my-site.git
 git pull origin master
